@@ -1,0 +1,1219 @@
+#homepage .jumbotron+h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px
+}
+
+#promo-banner .banner-content .banner-text .body,
+#homepage .hero-top .center-wrapper .free-signup-button,
+#homepage .loh-content #three-beat-story p,
+#homepage .loh-content #learn-from-anywhere p {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px
+}
+
+#homepage .site-header .nav-item .button.alt-white-ghost,
+#homepage .loh-content #three-beat-story .button.alt,
+#homepage .loh-content #learn-from-anywhere .button.alt {
+    font-size: 18px;
+    line-height: 22px
+}
+
+#homepage .site-header .nav-item .nav-item-link {
+    font-size: 15px;
+    line-height: 20px
+}
+
+#homepage #site-banner {
+    font-size: 13px;
+    line-height: 18px
+}
+
+.ss-svg-icon {
+    width: 24px;
+    height: 24px
+}
+
+.ss-svg-icon use {
+    fill: #394649
+}
+
+.carousel {
+    position: relative
+}
+
+.carousel .carousel-window {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-top: 24px
+}
+
+.carousel .carousel-content {
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    position: relative;
+    transition: transform .5s ease;
+    padding-bottom: 12px
+}
+
+.carousel .carousel-content .flex-grid-item {
+    padding: 0 8px
+}
+
+.carousel .carousel-header h2 {
+    margin-bottom: 10px
+}
+
+@media screen and (min-width:600px) {
+    .carousel .carousel-header {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .carousel .carousel-header h2 {
+        margin-bottom: 0
+    }
+}
+
+.carousel .carousel-bars {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.carousel .carousel-bar {
+    cursor: pointer;
+    padding-top: 5px;
+    width: 16px
+}
+
+.carousel .carousel-bar-active .carousel-bar-content {
+    background-color: #0D34BD
+}
+
+.carousel .carousel-bar-content {
+    border-radius: 100px;
+    background-color: #dcdee1;
+    height: 4px
+}
+
+.carousel .carousel-bar+.carousel-bar {
+    margin-left: 4px
+}
+
+.carousel .carousel-arrow {
+    color: #dcdee1;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50%;
+    box-shadow: 0 2px 4px 0 rgba(187, 187, 187, .5);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.carousel .carousel-arrow:not(.carousel-arrow-deactivated):hover {
+    cursor: pointer
+}
+
+.carousel .carousel-arrow:not(.carousel-arrow-deactivated):hover .ss-svg-icon use {
+    fill: #19242F
+}
+
+.carousel .carousel-arrow:not(.carousel-arrow-deactivated):active {
+    background-color: #19242F
+}
+
+.carousel .carousel-arrow:not(.carousel-arrow-deactivated):active .ss-svg-icon use {
+    fill: #fff
+}
+
+.carousel .carousel-arrow-previous {
+    left: -17px
+}
+
+.carousel .carousel-arrow-next {
+    right: -17px
+}
+
+@media screen and (max-width:1000px) and (min-width:801px) {
+    .carousel .carousel-arrow-previous {
+        left: 11px
+    }
+    .carousel .carousel-arrow-next {
+        right: 11px
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:601px) {
+    .carousel .carousel-arrow-previous {
+        left: 0
+    }
+    .carousel .carousel-arrow-next {
+        right: 0
+    }
+}
+
+.carousel .carousel-arrow-deactivated {
+    cursor: default;
+    box-shadow: none
+}
+
+.carousel .carousel-arrow-deactivated .ss-svg-icon use {
+    fill: #dcdee1
+}
+
+.carousel .carousel-item-3 {
+    -ms-flex: 1 0 33.33333%;
+    flex: 1 0 33.33333%
+}
+
+@media screen and (max-width:800px) and (min-width:601px) {
+    .carousel .carousel-item-3 {
+        -ms-flex: 1 0 50%;
+        flex: 1 0 50%
+    }
+}
+
+@media screen and (max-width:600px) {
+    .carousel .carousel-content {
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .carousel .carousel-item-3 {
+        -ms-flex: 1 0 100%;
+        flex: 1 0 100%
+    }
+    .carousel .carousel-header {
+        margin-bottom: 0
+    }
+    .carousel .carousel-arrow,
+    .carousel .carousel-bars {
+        display: none
+    }
+}
+
+.grid {
+    padding: 0 20px
+}
+
+@media screen and (min-width:541px) {
+    .grid {
+        padding: 0 40px
+    }
+}
+
+@media screen and (min-width:810px) {
+    .grid {
+        padding: 0 60px
+    }
+}
+
+@media screen and (min-width:990px) {
+    .grid {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0 30px
+    }
+}
+
+body {
+    -webkit-text-size-adjust: 100%
+}
+
+.site-header {
+    min-width: 810px
+}
+
+.site-footer {
+    min-width: 622px
+}
+
+@media screen and (max-width:540px) {
+    .site-footer {
+        display: none !important;
+    }
+    .site-footer-mobile {
+        display: -ms-flexbox;
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width:809px) {
+    .site-header {
+        display: none !important;
+    }
+    .site-header-mobile {
+        display: -ms-flexbox !important;
+        display: flex !important
+    }
+}
+
+@media screen and (max-width:809px) {
+    .layout-landing .section {
+        margin-bottom: 50px
+    }
+}
+
+#promo-banner {
+    background-image: url(../imgs/banner-quiz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    z-index: 1;
+    overflow: hidden
+}
+
+#promo-banner .promo-banner-overlay {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+    height: 100%
+}
+
+@media screen and (max-width:800px) {
+    #promo-banner .flex-grid-row {
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    #promo-banner .flex-grid-row br {
+        display: none
+    }
+    #promo-banner .flex-grid-row .header {
+        width: 100%!important;
+        margin-bottom: 20px
+    }
+}
+
+#promo-banner .banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+#promo-banner .banner-content .banner-grid-item {
+    display: block!important
+}
+
+#promo-banner .banner-content .banner-text {
+    width: 100%;
+    color: #19242F
+}
+
+#promo-banner .banner-content .banner-text .header {
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 700
+}
+
+@media screen and (max-width:800px) {
+    #promo-banner .banner-content .banner-text .header {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px
+    }
+}
+
+#promo-banner .banner-content .banner-text .body {
+    font-weight: 400;
+    line-height: 28px
+}
+
+#promo-banner .header {
+    width: 592px
+}
+
+@media screen and (max-width:800px) {
+    #promo-banner .header {
+        width: 100%;
+        margin-bottom: 20px
+    }
+}
+
+#promo-banner .body {
+    max-width: 592px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+    margin: 16px 0 0
+}
+
+#promo-banner .body,
+#promo-banner .header {
+    color: #fff
+}
+
+#promo-banner .flex-grid-wrapper {
+    margin-bottom: 0
+}
+
+@media screen and (max-width:375px) {
+    #promo-banner .flex-grid-wrapper.logged-out-home {
+        padding: 0!important;
+        margin-left: 24px!important
+    }
+}
+
+@media screen and (max-width:600px) {
+    #promo-banner.className-promo-banner {
+        height: 598px
+    }
+}
+
+@media screen and (max-width:800px) {
+    #promo-banner br {
+        display: none
+    }
+    #promo-banner.className-promo-banner {
+        background-image: url(../imgs/banner-quiz.jpg);
+        background-size: cover;
+        background-position: -350px top;
+    }
+    #promo-banner.className-promo-banner .promo-banner-overlay {
+        background: rgba(0, 0, 0, .4)
+    }
+    #promo-banner.className-promo-banner .body,
+    #promo-banner.className-promo-banner .header {
+        max-width: calc(100% - 80px)
+    }
+    #promo-banner.className-promo-banner .banner-content .flex-grid-item-3 {
+        margin-bottom: 4px;
+        position: static
+    }
+    #promo-banner.className-promo-banner .banner-content .body {
+        margin-top: 0
+    }
+}
+
+#promo-banner .see-all-playlist-button {
+    height: 36px;
+    line-height: 34px
+}
+
+#homepage #site-banner {
+    background-color: #fff;
+    color: #19242F;
+    text-align: center
+}
+
+#homepage #site-banner a {
+    color: #19242F
+}
+
+#homepage .site-header .nav-item .button.alt-white-ghost {
+    height: 40px;
+    line-height: 40px
+}
+
+#homepage .site-header .nav-item-link-light:hover {
+    color: #EB542C
+}
+
+#homepage .site-header-mobile {
+    height: 64px;
+    padding: 0 16px;
+    z-index: auto;
+}
+
+#homepage .site-header-mobile .logo-image {
+    height: 45px
+}
+
+#homepage .site-header-mobile .primary.drawer.popover {
+    margin-top: -12px
+}
+
+#homepage #page-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+#homepage .jumbotron {
+    font-size: 72px;
+    line-height: 64px
+}
+
+#homepage .jumbotron .brand-period {
+    /* color: #EB542C */
+}
+
+#homepage .jumbotron+h2 {
+    font-weight: 400;
+    margin-top: 32px;
+    text-shadow: 0 0 4px rgba(0, 0, 0, .25)
+}
+
+@media screen and (max-width:540px) {
+    #homepage .jumbotron {
+        font-size: 48px;
+        line-height: 56px
+    }
+    #homepage .jumbotron+h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 18px 0
+    }
+}
+
+@media screen and (max-width:375px) {
+    #homepage .jumbotron+h2 {
+        padding: 0 50px
+    }
+}
+
+#homepage .hero-top {
+    padding: 0;
+    margin: 0;
+    height: 720px;
+    overflow: hidden;
+    position: relative
+}
+
+#homepage .hero-top .hero-video {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover
+}
+
+#homepage .hero-top .center-wrapper {
+    z-index: 3;
+    background: rgba(0, 0, 0, .4)
+}
+
+#homepage .hero-top .center-wrapper .free-signup-button {
+    height: 52px;
+    line-height: 52px;
+    padding: 0 30px;
+    color: #fff;
+}
+
+#homepage .hero-top .center-wrapper .free-signup-button.mobile {
+    display: none
+}
+
+@media screen and (max-width:540px) {
+    #homepage .hero-top .center-wrapper .free-signup-button.desktop {
+        display: none
+    }
+    #homepage .hero-top .center-wrapper .free-signup-button.mobile {
+        display: inline-block!important
+    }
+}
+
+#homepage .hero-top .hero-video {
+    z-index: 1
+}
+
+@media screen and (max-width:989px) {
+    #homepage .hero-top {
+        height: 556px
+    }
+}
+
+@media screen and (max-width:809px) {
+    #homepage .hero-top {
+        margin-top: -1px;
+        height: 455px
+    }
+}
+
+@media screen and (max-width:540px) {
+    #homepage .hero-top {
+        margin-top: -1px;
+        height: auto;
+        background-image: url(../imgs/mobilebg.png);
+        background-position: 0;
+        padding: 0
+    }
+    #homepage .hero-top .hero-video {
+        display: none
+    }
+}
+
+#homepage .loh-content {
+    position: relative;
+    overflow: hidden
+}
+
+#homepage .loh-content .loh-modules {
+    position: relative;
+    z-index: 10
+}
+
+#homepage .loh-content .flex-grid-wrapper {
+    padding: 0 72px;
+    margin: 0 auto;
+    max-width: 1100px
+}
+
+#homepage .loh-content .flex-grid-wrapper .ss-card {
+    text-align: center;
+    transition: opacity 1s ease;
+    opacity: 1
+}
+
+#homepage .loh-content .flex-grid-wrapper .ss-card .ss-card__title {
+    height: 58px;
+    margin: 0;
+    text-align: center
+}
+
+#homepage .loh-content .flex-grid-wrapper .ss-card .ss-card__teacher-placeholder {
+    width: auto
+}
+
+#homepage .loh-content .flex-grid-wrapper .ss-card .ellipsis {
+    width: 100%
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-window {
+    overflow: visible
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-window .carousel-content {
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-arrow {
+    position: relative
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-arrow.carousel-arrow-next {
+    right: -16px
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-arrow.carousel-arrow-previous {
+    left: -16px
+}
+
+@media screen and (max-width:809px) {
+    #homepage .loh-content .flex-grid-wrapper .carousel-arrow {
+        display: none!important
+    }
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-controls {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-controls .carousel-bar-content {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    top: 0
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-controls .carousel-bars.dynamic {
+    max-width: 80px;
+    overflow: hidden;
+    -ms-flex-pack: left;
+    justify-content: left
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-controls .carousel-bars.dynamic .carousel-bar {
+    transition: transform .2s ease
+}
+
+#homepage .loh-content .flex-grid-wrapper .carousel-controls>div {
+    display: -ms-flexbox;
+    display: flex
+}
+
+#homepage .loh-content .fwfy {
+    padding-top: 120px;
+    height: 600px
+}
+
+#homepage .loh-content .fwfy>h1 {
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+@media screen and (max-width:809px) {
+    #homepage .loh-content .fwfy>h1 {
+        font-size: 36px;
+        line-height: 44px
+    }
+}
+
+#homepage .loh-content .fwfy .center-header {
+    text-align: center
+}
+
+#homepage .loh-content .fwfy .center-header .with-text.section {
+    margin-bottom: 0
+}
+
+#homepage .loh-content .fwfy .center-header .primary-tags a {
+    color: #19242F;
+    text-decoration: none;
+    padding-bottom: 16px;
+    padding-top: 4px;
+    margin: 0 20px;
+    display: inline-block
+}
+
+#homepage .loh-content .fwfy .center-header .primary-tags a:hover {
+    color: #0D34BD
+}
+
+#homepage .loh-content .fwfy .center-header .primary-tags a.active {
+    color: #0D34BD;
+    border-bottom: 4px solid #0D34BD
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content .fwfy .center-header .primary-tags a {
+        padding-bottom: 4px;
+        margin: 0 8px 4px;
+        border-bottom: 4px solid #f4f4f4
+    }
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content .fwfy {
+        background: #f4f4f4;
+        padding-bottom: 104px
+    }
+}
+
+#homepage .loh-content .banners {
+    height: 598px
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content .banners {
+        background: #19242F
+    }
+}
+
+#homepage .loh-content .examples img {
+    width: 100%;
+    height: auto;
+    max-height: 2770px;
+    margin: 0 auto
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content .examples {
+        background: #fff;
+        padding: 56px 0
+    }
+    #homepage .loh-content .examples #three-beat-story {
+        padding: 0
+    }
+}
+
+#homepage .loh-content #three-beat-story,
+#homepage .loh-content #learn-from-anywhere {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 75px 0
+}
+
+#homepage .loh-content #three-beat-story .story,
+#homepage .loh-content #learn-from-anywhere .story {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 125px 0
+}
+
+#homepage .loh-content #learn-from-anywhere #mobile-download-options.story {
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+#homepage .loh-content #three-beat-story section,
+#homepage .loh-content #learn-from-anywhere section {
+    -ms-flex-order: 1;
+    order: 1;
+    width: 323px;
+    min-width: 323px;
+    margin-left: 72px;
+    margin-right: auto
+}
+
+#homepage .loh-content #learn-from-anywhere #mobile-download-options section {
+    -ms-flex-order: unset;
+    order: unset;
+    width: 416px;
+    min-width: 416px
+}
+
+#homepage .loh-content #three-beat-story h2,
+#homepage .loh-content #learn-from-anywhere h2 {
+    font-size: 48px;
+    line-height: 52px
+}
+
+#homepage .loh-content #three-beat-story hr,
+#homepage .loh-content #learn-from-anywhere hr {
+    background-color: #0D34BD;
+    border: none;
+    border-radius: 8px;
+    height: 8px;
+    width: 100px;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 24px;
+    margin-bottom: 24px
+}
+
+#homepage .loh-content #three-beat-story p,
+#homepage .loh-content #learn-from-anywhere p {
+    font-weight: 400
+}
+
+#homepage .loh-content #three-beat-story .button.alt,
+#homepage .loh-content #learn-from-anywhere .button.alt {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 32px
+}
+
+#homepage .loh-content #three-beat-story img {
+    -ms-flex-order: 2;
+    order: 2;
+    border-radius: 8px;
+    box-shadow: 12px 12px 25px rgba(0, 0, 0, .4);
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+#homepage .loh-content #three-beat-story #what-will-you-discover img {
+    max-height: 576px;
+    max-width: 1048px;
+    min-height: 426px;
+    min-width: 775px;
+    margin-left: 64px;
+    margin-right: -247px
+}
+
+#homepage .loh-content #three-beat-story #membership-with-meaning img {
+    -ms-flex-order: 1;
+    order: 1;
+    max-height: 630px;
+    max-width: 1008px;
+    min-height: 466px;
+    min-width: 745px;
+    margin-right: 61px;
+    margin-left: -250px
+}
+
+#homepage .loh-content #three-beat-story #membership-with-meaning section {
+    -ms-flex-order: 2;
+    order: 2;
+    margin-left: auto;
+    margin-right: 72px
+}
+
+#homepage .loh-content #three-beat-story #classNamees-designed-for-real-life img {
+    max-height: 816px;
+    max-width: 900px;
+    min-height: 466px;
+    min-width: 745px;
+    margin-left: 68px;
+    margin-right: -191px
+}
+
+#homepage .loh-content #learn-from-anywhere #mobile-download-options img#learn-from-anywhere-tablet {
+    border-radius: 45px;
+    height: 800px;
+    width: auto;
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content #three-beat-story .story,
+    #homepage .loh-content #learn-from-anywhere .story {
+        margin: 88px 0
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options section {
+        margin-left: 48px
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options img#learn-from-anywhere-tablet {
+        border-radius: 45px;
+        height: 643px;
+        width: 555px
+    }
+}
+
+@media screen and (max-width:809px) {
+    #homepage .loh-content #three-beat-story,
+    #homepage .loh-content #learn-from-anywhere {
+        display: block;
+        margin: 32px 0
+    }
+    #homepage .loh-content #three-beat-story .story,
+    #homepage .loh-content #learn-from-anywhere .story {
+        display: inline-block;
+        width: 100%;
+        margin: 72px 0
+    }
+    #homepage .loh-content #three-beat-story section,
+    #homepage .loh-content #learn-from-anywhere section {
+        box-sizing: border-box;
+        padding: 0 120px;
+        width: 100%;
+        text-align: center;
+        margin: 56px 0 0
+    }
+    #homepage .loh-content #three-beat-story hr,
+    #homepage .loh-content #learn-from-anywhere hr {
+        margin-left: auto
+    }
+    #homepage .loh-content #learn-from-anywhere h2 {
+        text-align: center;
+    }
+    #homepage .loh-content #three-beat-story p,
+    #homepage .loh-content #learn-from-anywhere p {
+        max-width: 444px;
+        margin: 0 auto
+    }
+    #homepage .loh-content #learn-from-anywhere p {
+        text-align: center;
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options.story {
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 80px
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options section {
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        margin-left: 24px;
+        min-width: auto
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options section hr {
+        margin-left: auto;
+    }
+    #homepage .loh-content #three-beat-story #what-will-you-discover img,
+    #homepage .loh-content #three-beat-story #membership-with-meaning img,
+    #homepage .loh-content #three-beat-story #classNamees-designed-for-real-life img {
+        margin-right: auto
+    }
+    #homepage .loh-content #three-beat-story #what-will-you-discover img {
+        max-height: 426px;
+        max-width: 775px;
+        min-height: 309px;
+        min-width: 562px;
+        margin-left: 72px
+    }
+    #homepage .loh-content #three-beat-story #membership-with-meaning img {
+        max-height: 466px;
+        max-width: 745px;
+        min-height: 337px;
+        min-width: 539px;
+        margin-left: -72px
+    }
+    #homepage .loh-content #three-beat-story #classNamees-designed-for-real-life img {
+        max-height: 733px;
+        max-width: 745px;
+        min-height: 337px;
+        min-width: 539px;
+        margin-left: 72px
+    }
+    #homepage .loh-content .creators {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+@media screen and (max-width:540px) {
+    #promo-banner .banner-content .banner-text {
+        width: 90%;
+    }
+    .layout-landing .center-wrapper {
+        height: auto;
+    }
+    .layout-landing .marketing-banner .content {
+        padding: 50px 0 70px 0;
+    }
+    #homepage .loh-content #three-beat-story,
+    #homepage .loh-content #learn-from-anywhere {
+        margin: 52px 0
+    }
+    #homepage .loh-content #three-beat-story .story,
+    #homepage .loh-content #learn-from-anywhere .story {
+        margin: 52px 0
+    }
+    #homepage .loh-content #three-beat-story section,
+    #homepage .loh-content #learn-from-anywhere section {
+        padding: 0 48px
+    }
+    #homepage .loh-content #three-beat-story h2,
+    #homepage .loh-content #learn-from-anywhere h2 {
+        font-size: 30px;
+        line-height: 44px
+    }
+    #homepage .loh-content #three-beat-story p,
+    #homepage .loh-content #learn-from-anywhere p {
+        font-size: 18px;
+        line-height: 22px
+    }
+    #promo-banner .banner-content .banner-text .header {
+        font-size: 30px;
+    }
+    #promo-banner.className-promo-banner .body,
+    #promo-banner.className-promo-banner .header {
+        max-width: 100%;
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options.story {
+        display: block
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options section {
+        padding: 0 40px;
+        width: 100%;
+        text-align: center;
+        margin: 56px 0 0
+    }
+    #homepage .loh-content #learn-from-anywhere #mobile-download-options section hr {
+        margin-left: auto
+    }
+    #homepage .loh-content #three-beat-story #what-will-you-discover img,
+    #homepage .loh-content #three-beat-story #classNamees-designed-for-real-life img {
+        margin-left: 24px
+    }
+    #homepage .loh-content #three-beat-story #membership-with-meaning img {
+        margin-left: 24px
+    }
+}
+
+@media screen and (max-width:375px) {
+    #homepage .loh-content #three-beat-story section,
+    #homepage .loh-content #learn-from-anywhere section {
+        padding: 0 16px
+    }
+}
+
+#homepage .loh-content .creators {
+    height: 945px;
+    padding-top: 150px
+}
+
+#homepage .loh-content .creators h1 {
+    font-size: 48px;
+    line-height: 52px
+}
+
+@media screen and (max-width:809px) {
+    #homepage .loh-content .creators h1 {
+        font-size: 30px !important;
+        line-height: 44px
+    }
+    #homepage .loh-content .creators p {
+        font-size: 18px !important;
+    }
+}
+
+#homepage .loh-content .creators h1,
+#homepage .loh-content .creators>p {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff
+}
+
+#homepage .loh-content .creators hr {
+    display: block;
+    width: 100px;
+    height: 8px;
+    background-color: #EB542C;
+    border-radius: 8px;
+    margin: 32px auto;
+    box-shadow: none;
+    outline: none;
+    border: none
+}
+
+#homepage .loh-content .creators p {
+    font-size: 22px;
+    line-height: 28px
+}
+
+#homepage .loh-content .creators>p {
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px
+}
+
+#homepage .loh-content .creators .ss-card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5)
+}
+
+#homepage .loh-content .creators .ss-card::after {
+    box-shadow: 0 9px 12px 0 rgba(0, 0, 0, .5)
+}
+
+#homepage .loh-content .creators .ss-card .ss-card__thumbnail {
+    padding-top: 67%
+}
+
+#homepage .loh-content .creators .ss-card .ss-card__content {
+    padding: 12px
+}
+
+#homepage .loh-content .creators .ss-card .ss-card__content .ss-card__title {
+    height: auto
+}
+
+#homepage .loh-content .creators .ss-card .ss-card__content .ss-card__teacher-placeholder .link-main {
+    font-size: 18px;
+    line-height: 20px
+}
+
+#homepage .loh-content .creators .carousel-content {
+    padding-bottom: 24px
+}
+
+#homepage .loh-content .creators .carousel-bar-active .carousel-bar-content {
+    background-color: #EB542C
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content .creators {
+        background: #19242F;
+        padding: 104px 0
+    }
+}
+
+#homepage .loh-content .mobile-experience {
+    height: 800px
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content .mobile-experience {
+        background: #f4f4f4
+    }
+    #homepage .loh-content .mobile-experience #learn-from-anywhere {
+        padding: 95px 0
+    }
+}
+
+@media screen and (max-width:809px) {
+    #homepage .loh-content .mobile-experience #learn-from-anywhere {
+        padding-top: 0
+    }
+}
+
+@media screen and (max-width:989px) {
+    #homepage .loh-content .fwfy,
+    #homepage .loh-content .mobile-experience,
+    #homepage .loh-content .creators,
+    #homepage .loh-content .examples {
+        height: auto
+    }
+}
+
+#homepage .site-footer,
+#homepage .site-footer-mobile {
+    margin-top: 0
+}
+
+#homepage #mobile-screens {
+    position: relative;
+    width: 100%
+}
+
+#homepage #mobile-screens img {
+    -ms-flex-order: unset;
+    order: unset;
+    position: absolute
+}
+
+#homepage #mobile-screens img#learn-from-anywhere-tablet {
+    top: -300px;
+    left: 50px
+}
+
+@media screen and (max-width:989px) {
+    #homepage #mobile-screens img#learn-from-anywhere-tablet {
+        top: -222px;
+        left: 0px
+    }
+}
+
+@media screen and (max-width:809px) {
+    #homepage #mobile-screens img#learn-from-anywhere-tablet {
+        display: none
+    }
+}
+
+@media screen and (max-width:809px) {
+    #homepage #mobile-screens {
+        width: 285px;
+        display: none;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    #homepage .loh-content #three-beat-story section,
+    #homepage .loh-content #learn-from-anywhere section {
+        width: 525px;
+    }
+    #homepage .loh-content #three-beat-story .story,
+    #homepage .loh-content #learn-from-anywhere .story {
+        max-width: 1500px;
+    }
+    #homepage #mobile-screens img#learn-from-anywhere-tablet {
+        left: 250px;
+    }
+}
+
+#homepage .loh-content .creators {
+    background: #19242F;
+}
+
+.site-footer {
+    border-top: none;
+}
+
+.js-home-section-content, .carousel-bar {
+    transform: translateX(0%);
+}
